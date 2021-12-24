@@ -1,0 +1,54 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 6:00:00
+
+Sat Dec 25 00:36:53 2021
+Iteration 1 (3 requested)
+Beginning iteration 1
+4 segments remain in iteration 1 (4 total)
+1 of 20 (5.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.25
+per-segment maximum non-zero probability:   0.25
+per-segment probability dynamic range (kT): 0
+norm = 1, error in norm = 0 (0*epsilon)
+Iteration wallclock: 0:00:00.204946, cputime: 0:00:00.491054
+
+
+Sat Dec 25 00:36:53 2021
+Iteration 2 (3 requested)
+Beginning iteration 2
+16 segments remain in iteration 2 (16 total)
+4 of 20 (20.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.25
+per-bin maximum probability:                0.25
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.0625
+per-segment maximum non-zero probability:   0.0625
+per-segment probability dynamic range (kT): 0
+norm = 1, error in norm = 0 (0*epsilon)
+Recycled 0.0625 probability (1 walkers) from target state 'bound'
+Recycled 0.0625 probability (1 walkers) from target state 'unbound'
+Iteration wallclock: 0:00:01.701593, cputime: 0:00:03.285985
+
+
+Sat Dec 25 00:36:55 2021
+Iteration 3 (3 requested)
+Beginning iteration 3
+20 segments remain in iteration 3 (20 total)
+5 of 20 (25.000000%) active bins are populated
+per-bin minimum non-zero probability:       0.0625
+per-bin maximum probability:                0.75
+per-bin probability dynamic range (kT):     2.48491
+per-segment minimum non-zero probability:   0.015625
+per-segment maximum non-zero probability:   0.1875
+per-segment probability dynamic range (kT): 2.48491
+norm = 1, error in norm = 0 (0*epsilon)
+Recycled 0.015625 probability (1 walkers) from target state 'bound'
+Recycled 0.015625 probability (1 walkers) from target state 'unbound'
+Iteration wallclock: 0:00:01.214968, cputime: 0:00:04.446118
+
+
+Sat Dec 25 00:36:56 2021
+WEST run complete.
