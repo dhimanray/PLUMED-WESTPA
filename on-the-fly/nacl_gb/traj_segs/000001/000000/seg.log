@@ -1,5 +1,5 @@
-Log file opened on Sat Dec 25 00:36:53 2021
-Host: dhiman-Inspiron-15-5510  pid: 124254  rank ID: 0  number of ranks:  1
+Log file opened on Wed Dec 29 16:34:37 2021
+Host: dhiman-Inspiron-15-5510  pid: 176594  rank ID: 0  number of ranks:  1
                       :-) GROMACS - gmx mdrun, 2018.6 (-:
 
                             GROMACS is written by:
@@ -29,7 +29,7 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2018.6
 Executable:   /home/dhiman/miniconda3/envs/plumed-westpa/bin/gmx
 Data prefix:  /home/dhiman/miniconda3/envs/plumed-westpa
-Working dir:  /home/dhiman/plumed-westpa/on-the-fly/nacl_gb/traj_segs/000001/000000
+Working dir:  /home/dhiman/PLUMED-WESTPA/on-the-fly/nacl_gb/traj_segs/000001/000000
 Command line:
   gmx mdrun -s seg.tpr -o seg.trr -c seg.gro -e seg.edr -cpo seg.cpt -g seg.log -plumed plumed.dat
 
@@ -144,7 +144,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 250
    bd-fric                        = 0
-   ld-seed                        = 15850
+   ld-seed                        = 49670
    emtol                          = 10
    emstep                         = 0.01
    niter                          = 20
@@ -341,7 +341,7 @@ J. Chem. Theory Comput. 8 (2012) pp. 3637--3649
 -------- -------- --- Thank You --- -------- --------
 
 There are: 2 Atoms
-Initial temperature: 56.3471 K
+Initial temperature: 64.3863 K
 
 PLUMED: PLUMED is starting
 PLUMED: Version: 2.7.3 (git: Unknown) compiled on Dec  1 2021 at 12:51:58
@@ -375,7 +375,7 @@ PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
 PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
 PLUMED: Please read and cite where appropriate!
 PLUMED: Finished setup
-Started mdrun on rank 0 Sat Dec 25 00:36:53 2021
+Started mdrun on rank 0 Wed Dec 29 16:34:37 2021
            Step           Time
               0        0.00000
 
@@ -384,58 +384,58 @@ Note: The available nonbonded kernels do not support water optimization - disabl
 Grid: 2 x 2 x 2 cells
    Energies (kJ/mol)
 GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
-   -8.42008e+01    3.37771e+00   -8.46749e-05   -1.35415e+02   -2.16238e+02
+   -8.42008e+01    3.37771e+00   -8.36914e-05   -1.35151e+02   -2.15974e+02
     Kinetic En.   Total Energy    Temperature Pressure (bar)
-    7.39604e-01   -2.15498e+02    5.93026e+01    0.00000e+00
+    7.61907e-01   -2.15212e+02    6.10909e+01    0.00000e+00
 
            Step           Time
              50        0.10000
 
    Energies (kJ/mol)
 GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
-   -8.42008e+01    3.37771e+00   -9.66950e-05   -1.38444e+02   -2.19267e+02
+   -8.42008e+01    3.37771e+00   -1.07171e-04   -1.40838e+02   -2.21661e+02
     Kinetic En.   Total Energy    Temperature Pressure (bar)
-    4.99557e+00   -2.14272e+02    4.00552e+02    0.00000e+00
+    5.10126e+00   -2.16560e+02    4.09027e+02    0.00000e+00
 
            Step           Time
             100        0.20000
 
    Energies (kJ/mol)
 GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
-   -8.42008e+01    3.37771e+00   -1.88565e-04   -1.54747e+02   -2.35570e+02
+   -8.42008e+01    3.37771e+00   -2.69413e-04   -1.64230e+02   -2.45053e+02
     Kinetic En.   Total Energy    Temperature Pressure (bar)
-    1.99289e+01   -2.15641e+02    1.59793e+03    0.00000e+00
+    2.78984e+01   -2.17155e+02    2.23694e+03    0.00000e+00
 
            Step           Time
             150        0.30000
 
    Energies (kJ/mol)
 GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
-   -8.42008e+01    3.37771e+00   -1.14218e-03   -2.08954e+02   -2.89778e+02
+   -8.42008e+01    3.37771e+00   -3.09157e-03   -2.46732e+02   -3.27558e+02
     Kinetic En.   Total Energy    Temperature Pressure (bar)
-    7.53577e+01   -2.14420e+02    6.04229e+03    0.00000e+00
+    1.09764e+02   -2.17794e+02    8.80103e+03    0.00000e+00
 
            Step           Time
             200        0.40000
 
    Energies (kJ/mol)
 GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
-   -8.42008e+01    3.37771e+00    9.53874e+00   -8.28069e+02   -8.99353e+02
+   -8.42008e+01    3.37771e+00   -5.03666e-02   -3.95192e+02   -4.76066e+02
     Kinetic En.   Total Energy    Temperature Pressure (bar)
-    6.60226e+02   -2.39128e+02    5.29379e+04    0.00000e+00
+    4.78189e+02    2.12299e+00    3.83419e+04    0.00000e+00
 
            Step           Time
             250        0.50000
 
-Writing checkpoint, step 250 at Sat Dec 25 00:36:53 2021
+Writing checkpoint, step 250 at Wed Dec 29 16:34:37 2021
 
 
-Large VCM(group rest):     -0.31140,     -0.02867,      0.14511, Temp-cm:  2.31519e+00
+Large VCM(group rest):      0.09174,      0.14199,      0.24886, Temp-cm:  1.76318e+00
    Energies (kJ/mol)
 GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
-   -8.42008e+01    3.37771e+00   -1.26560e-03   -2.12561e+02   -2.93385e+02
+   -8.42008e+01    3.37771e+00   -1.09839e-04   -1.41417e+02   -2.22240e+02
     Kinetic En.   Total Energy    Temperature Pressure (bar)
-    9.71300e+01   -1.96255e+02    7.78804e+03    0.00000e+00
+    1.95353e+02   -2.68870e+01    1.56637e+04    0.00000e+00
 
 	<======  ###############  ==>
 	<====  A V E R A G E S  ====>
@@ -445,14 +445,14 @@ GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
 
    Energies (kJ/mol)
 GB Polarization  Nonpolar Sol.        LJ (SR)   Coulomb (SR)      Potential
-   -8.42008e+01    3.37771e+00    1.58933e+00   -2.79698e+02   -3.58932e+02
+   -8.42008e+01    3.37771e+00   -9.00471e-03   -2.03927e+02   -2.84759e+02
     Kinetic En.   Total Energy    Temperature Pressure (bar)
-    1.43063e+02   -2.15869e+02    1.14710e+04    0.00000e+00
+    1.36178e+02   -1.48581e+02    1.09190e+04    0.00000e+00
 
    Total Virial (kJ/mol)
-    9.63216e+01    1.66541e+01   -2.70652e+01
-    1.66541e+01    7.42018e+00   -1.16769e+01
-   -2.70652e+01   -1.16769e+01    1.83937e+01
+    8.97882e+01   -1.31523e+01    1.87464e+01
+   -1.31523e+01    3.69222e+00   -5.53594e+00
+    1.87464e+01   -5.53594e+00    8.33530e+00
 
    Pressure (bar)
     0.00000e+00    0.00000e+00    0.00000e+00
@@ -490,25 +490,25 @@ On 1 MPI rank
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Neighbor search        1    1          1       0.000          0.000   0.1
- Force                  1    1        251       0.000          0.001   1.2
- Write traj.            1    1          6       0.037          0.107  93.3
- Update                 1    1        251       0.000          0.001   0.6
- Rest                                           0.002          0.005   4.7
+ Neighbor search        1    1          1       0.000          0.000   0.2
+ Force                  1    1        251       0.000          0.001   3.1
+ Write traj.            1    1          6       0.003          0.010  21.4
+ Update                 1    1        251       0.000          0.001   1.7
+ Rest                                           0.012          0.034  73.6
 -----------------------------------------------------------------------------
- Total                                          0.039          0.115 100.0
+ Total                                          0.016          0.046 100.0
 -----------------------------------------------------------------------------
 
                Core t (s)   Wall t (s)        (%)
-       Time:        0.039        0.039      100.0
+       Time:        0.016        0.016      100.0
                  (ns/day)    (hour/ns)
-Performance:     1100.976        0.022
-Finished mdrun on rank 0 Sat Dec 25 00:36:53 2021
+Performance:     2745.694        0.009
+Finished mdrun on rank 0 Wed Dec 29 16:34:37 2021
 PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
-PLUMED:                                                    1     0.001542     0.001542     0.001542     0.001542
-PLUMED: 1 Prepare dependencies                           251     0.000042     0.000000     0.000000     0.000001
-PLUMED: 2 Sharing data                                     6     0.000007     0.000001     0.000001     0.000003
-PLUMED: 3 Waiting for data                                 6     0.000002     0.000000     0.000000     0.000001
-PLUMED: 4 Calculating (forward loop)                       6     0.000014     0.000002     0.000002     0.000005
+PLUMED:                                                    1     0.009669     0.009669     0.009669     0.009669
+PLUMED: 1 Prepare dependencies                           251     0.005142     0.000020     0.000000     0.005098
+PLUMED: 2 Sharing data                                     6     0.000006     0.000001     0.000001     0.000003
+PLUMED: 3 Waiting for data                                 6     0.000001     0.000000     0.000000     0.000000
+PLUMED: 4 Calculating (forward loop)                       6     0.000016     0.000003     0.000002     0.000004
 PLUMED: 5 Applying (backward loop)                         6     0.000011     0.000002     0.000001     0.000003
-PLUMED: 6 Update                                           6     0.000037     0.000006     0.000002     0.000023
+PLUMED: 6 Update                                           6     0.000040     0.000007     0.000002     0.000020

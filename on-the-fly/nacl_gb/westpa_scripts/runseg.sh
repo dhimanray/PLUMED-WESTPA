@@ -92,11 +92,6 @@ $GMX mdrun -s seg.tpr -o seg.trr -c  seg.gro -e seg.edr \
 # Calculate the progress coordinate
 python $WEST_SIM_ROOT/westpa_scripts/progress_coord.py > $WEST_PCOORD_RETURN
 
-
-#$GMX distance -f $WEST_CURRENT_SEG_DATA_REF/seg.trr \
-#  -s $WEST_CURRENT_SEG_DATA_REF/seg.tpr -select 1 -oall dist.xvg
-#cat dist.xvg | tail -6 | awk '{print $2*10;}' > $WEST_PCOORD_RETURN
-
 # Output coordinates.  To do this, we'll use trjconv to make a PDB file. Then
 # we can parse the PDB file using grep and awk, only taking the x,y,z values
 # for the coordinates.
